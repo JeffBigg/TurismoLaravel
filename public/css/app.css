@@ -1,22 +1,102 @@
-
 .seccion p {
     height: 100px;
 }
+
 .navbar-nav li {
-    margin-right: 30px; /* Espaciado entre elementos li */
-    font-size: 22px; /* Tamaño de fuente */
+    margin-right: 30px;
+    /* Espaciado entre elementos li */
+    font-size: 22px;
+    /* Tamaño de fuente */
 }
-.inicio{
-    font-size: 24px; /* Tamaño de fuente */
+
+.inicio {
+    font-size: 24px;
+    /* Tamaño de fuente */
 }
-.bg-image{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../../public/img/maxresdefault.jpg');
-    height: 300px;
-    width: 100%
+
+
+body {
+    background-color: whitesmoke;
 }
-body{
-    background-color:whitesmoke ;
+
+.imagenhead {
+    text-align: center;
+}
+
+.imagenhead img {
+    width: 102%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+
+}
+
+.cont-slider .text-slider {
+    width: 41%;
+    padding: 22vh 7vh;
+    padding: 2vh 7vh;
+    color: white;
+    font-family: "BreePeru-Bold";
+    display: flex;
+    align-items: center;
+    background-color: rgb(92, 27, 153);
+
+}
+
+@media (max-width: 768px) {
+    .imagenhead img {
+        width: 100%;
+    }
+
+    .cont-slider .text-slider {
+        width: 100%;
+        padding: 2vh;
+    }
+}
+
+.cont-slider .text-slider .info-banner h2 {
+    font-size: 2.3rem !important;
+}
+
+.cont-slider .text-slider .info-banner p {
+    font-size: 1.125rem !important;
+    font-family: "ClanOffc-News";
+    max-width: 360px;
+}
+
+.cont-slider .text-slider .info-banner {
+    max-width: 360px;
+    max-width: 420px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    row-gap: 15px;
+}
+
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+
 }

@@ -1,15 +1,19 @@
-
 <x-layouts.app title="home" meta-description="home meta description">
+    <header>
+        <div class="cont-slider">
+            <div class="row">
+                <div class="imagenhead col-md-7 ">
+                    <img src="img/huanucoletra.jpg" alt="">
+                </div>
+                <div class=" text-slider col-md-5">
+                    <div class="info-banner">
+                        <h2>Huanuco el mejor clima del mundo.</h2>
+                        <p>no pierdas la oportunidad de conoser los diferentes climas que esta ciudad te ofrese ven y
+                            visitanos.</p>
+                    </div>
 
-    <header class=" bg-image text-white text-center py-5 my-5 ">
-        <div class="container">
-            <h1>Bienvenido a ExpresTour</h1>
-            <h3>Tu portal para experiencias de viaje inolvidables</h3>
-            <br>
-            <br>
-            <br>
-            <br>
-
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -19,28 +23,36 @@
                 <div class="row">
                     <div class="col-md-4 mt-2 text-center seccion">
                         <h3>Destinos Exclusivos</h3>
-                        <p class=" w-100">Nos enorgullece ofrecerte destinos únicos y emocionantes en todo el mundo. Desde playas tropicales hasta ciudades históricas, tenemos algo para cada tipo de viajero.</p>
+                        <p class=" w-100">Nos enorgullece ofrecerte destinos únicos y emocionantes en todo el mundo.
+                            Desde playas tropicales hasta ciudades históricas, tenemos algo para cada tipo de viajero.
+                        </p>
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{asset('img/laguna.jpg')}}" alt="Destinos Exclusivos" class="img-responsive" width="400" height="200">
+                            <img src="{{ asset('img/laguna.jpg') }}" alt="Destinos Exclusivos" class="img-responsive"
+                                width="400" height="200">
                         </div>
                     </div>
                     <div class="col-md-4 mt-2 text-center seccion">
 
                         <h3>Experiencias a Medida</h3>
 
-                        <p class=" w-100" >Sabemos que cada viajero es diferente, por lo que personalizamos cada viaje según tus preferencias y necesidades. Tu satisfacción es nuestra máxima prioridad.</p>
+                        <p class=" w-100">Sabemos que cada viajero es diferente, por lo que personalizamos cada viaje
+                            según tus preferencias y necesidades. Tu satisfacción es nuestra máxima prioridad.</p>
 
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{asset('img/experiencia.avif')}}" alt="experiencia" class="img-responsive" width="400" height="200">
+                            <img src="{{ asset('img/experiencia.avif') }}" alt="experiencia" class="img-responsive"
+                                width="400" height="200">
                         </div>
                     </div>
                     <div class="col-md-4 mt-2 text-center seccion">
                         <h3>Equipo de Expertos</h3>
 
-                        <p class=" w-100">Nuestro equipo de expertos en turismo está listo para brindarte asesoramiento y recomendaciones para que tu viaje sea perfecto. ¡Déjanos encargarnos de los detalles para que tú puedas relajarte y disfrutar!</p>
+                        <p class=" w-100">Nuestro equipo de expertos en turismo está listo para brindarte asesoramiento
+                            y recomendaciones para que tu viaje sea perfecto. ¡Déjanos encargarnos de los detalles para
+                            que tú puedas relajarte y disfrutar!</p>
 
                         <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{asset('img/expertos.jpg')}}" alt="expertos" class="img-responsive" width="400" height="200">
+                            <img src="{{ asset('img/expertos.jpg') }}" alt="expertos" class="img-responsive"
+                                width="400" height="200">
                         </div>
                     </div>
                 </div>

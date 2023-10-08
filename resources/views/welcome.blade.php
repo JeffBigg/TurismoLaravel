@@ -8,7 +8,7 @@
                 <div class=" text-slider col-md-5">
                     <div class="info-banner">
                         <h2>Huanuco el mejor clima del mundo.</h2>
-                        <p>no pierdas la oportunidad de conoser los diferentes climas que esta ciudad te ofrese ven y
+                        <p>No pierdas la oportunidad de conocer los diferentes climas que esta ciudad te ofrese ven y
                             visitanos.</p>
                     </div>
 
@@ -18,7 +18,7 @@
     </header>
     <main>
         <section class="sec-informe">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="titulo d-flex">
                     <h2 class="text-center">¿Por qué elegirnos?</h2>
                 </div>
@@ -62,7 +62,7 @@
         </section>
 
         <section class="sec-informe">
-            <div class="container">
+            <div class="container-fluid">
                 <h2 class="text-center">Nuestros Servicios</h2>
                 <div class="row">
                     <div class="col-md-3">

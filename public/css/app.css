@@ -5,7 +5,7 @@
 .navbar-nav li {
     margin-right: 30px;
     /* Espaciado entre elementos li */
-    font-size: 22px;
+    font-size: px;
     /* Tamaño de fuente */
 }
 
@@ -39,7 +39,7 @@ body {
     font-family: "BreePeru-Bold";
     display: flex;
     align-items: center;
-    background-color: rgb(92, 27, 153);
+    background-color: rgb(25, 48, 177);
 
 }
 

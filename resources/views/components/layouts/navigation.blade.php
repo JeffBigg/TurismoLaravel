@@ -1,4 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+<style>
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar .container a {
+        color: white;
+
+    }
+</style>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="barra-nav">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">INICIO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -8,16 +18,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('turismo.index') }}">Turismo</a>
+                    <a class="nav-link" href="{{ route('turismo.index') }}">PAQUETES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="#">LOGIN</a>
                 </li>
                 <li class="nav-item disabled">
-                    <a class="nav-link">Disabled</a>
+                    <a class="nav-link">DISABLED</a>
                 </li>
             </ul>
         </div>

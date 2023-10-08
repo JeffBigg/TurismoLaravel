@@ -17,11 +17,13 @@
         </div>
     </header>
     <main>
-        <section id="por-que-elegirnos" class=" container my-5">
-            <div class="container-fluid">
-                <h2 class="text-center">¿Por qué elegirnos?</h2>
+        <section class="sec-informe">
+            <div class="container">
+                <div class="titulo d-flex">
+                    <h2 class="text-center">¿Por qué elegirnos?</h2>
+                </div>
                 <div class="row">
-                    <div class="col-md-4 mt-2 text-center seccion">
+                    <div class="col-md-4 text-center seccion">
                         <h3>Destinos Exclusivos</h3>
                         <p class=" w-100">Nos enorgullece ofrecerte destinos únicos y emocionantes en todo el mundo.
                             Desde playas tropicales hasta ciudades históricas, tenemos algo para cada tipo de viajero.
@@ -31,7 +33,7 @@
                                 width="400" height="200">
                         </div>
                     </div>
-                    <div class="col-md-4 mt-2 text-center seccion">
+                    <div class="col-md-4 text-center seccion">
 
                         <h3>Experiencias a Medida</h3>
 
@@ -43,7 +45,7 @@
                                 width="400" height="200">
                         </div>
                     </div>
-                    <div class="col-md-4 mt-2 text-center seccion">
+                    <div class="col-md-4 text-center seccion">
                         <h3>Equipo de Expertos</h3>
 
                         <p class=" w-100">Nuestro equipo de expertos en turismo está listo para brindarte asesoramiento
@@ -59,7 +61,7 @@
             </div>
         </section>
 
-        <section id="nuestros-servicios" class="bg-light py-3">
+        <section class="sec-informe">
             <div class="container">
                 <h2 class="text-center">Nuestros Servicios</h2>
                 <div class="row">

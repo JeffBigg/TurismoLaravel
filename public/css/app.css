@@ -100,3 +100,36 @@ p {
     margin-bottom: 1rem;
 
 }
+
+.d-flex {
+    display: flex !important;
+}
+
+.titulo {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 0 30px;
+}
+
+.titulo h2 {
+    font-family: "ClanOffc-Medium";
+    text-align: left;
+    font-style: normal;
+    font-weight: bold !important;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 40px;
+    font-size: 32px;
+}
+
+.sec-informe .titulo h2 {
+    color: #33ABA0;
+}
+
+.sec-informe .container {
+    margin: 0;
+    width: 100%;
+}

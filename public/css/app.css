@@ -18,6 +18,17 @@
 
 }
 
+.imagenhead {
+    text-align: center;
+}
+
+.imagenhead img {
+    width: 102%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
 .inicio {
     font-size: 24px;
     /* Tamaño de fuente */
@@ -106,7 +117,7 @@ p {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 10px 0 10px;
+    padding: 6px 0 6px;
 }
 
 .titulo h2 {
@@ -124,6 +135,7 @@ p {
 
 .sec-informe .titulo h2 {
     color: #33ABA0;
+    margin: 15px 0;
 }
 
 .sec-informe .container {
@@ -131,7 +143,7 @@ p {
     width: 100%;
 }
 
-.card {
+.sec-informe .card {
     text-align: center;
     margin: 20px 0;
     height: 90%;
@@ -144,4 +156,15 @@ p {
 
 .card-text {
     margin-top: 10px;
+}
+
+.sec-ofrece .card {
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.sec-ofrece .titulo h2 {
+    color: #33ABA0;
+    margin: 15px;
 }

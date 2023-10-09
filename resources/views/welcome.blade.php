@@ -10,7 +10,7 @@
                         <h2>Huanuco el mejor clima del mundo.</h2>
                         <p>No pierdas la oportunidad de conocer los diferentes climas que esta ciudad te ofrese ven y
                             visitanos.</p>
-                    </div>w
+                    </div>
                 </div>
             </div>
         </div>
@@ -62,21 +62,31 @@
             </div>
         </section>
 
-        <section class="sec-informe">
-            <div class="container">
-                <h2 class="text-center">Nuestros Servicios</h2>
+        <section class="sec-ofrece">
+            <div class="container-fluid">
+                <div class="titulo d-flex">
+                    <h2 class="text-center">Nuestros Servicios</h2>
+                </div>
                 <div class="row">
                     <div class="col-md-3">
-                        <h4>Alojamiento de lujo</h4>
+                        <div class="card">
+                            <h4>Alojamiento de lujo y comodo</h4>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <h4>Transporte seguro y cómodo</h4>
+                        <div class="card">
+                            <h4>Transporte seguro y cómodo</h4>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <h4>Excursiones y actividades emocionantes</h4>
+                        <div class="card">
+                            <h4>Excursiones y actividades emocionantes</h4>
+                        </div>
                     </div>
                     <div class="col-md-3">
-                        <h4>Asesoramiento personalizado</h4>
+                        <div class="card">
+                            <h4>Asesoramiento personalizado</h4>
+                        </div>
                     </div>
                 </div>
             </div>

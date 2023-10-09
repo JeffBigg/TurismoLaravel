@@ -1,13 +1,3 @@
-<style>
-    .navbar {
-        background-color: black;
-    }
-
-    .navbar .container a {
-        color: white;
-
-    }
-</style>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="barra-nav">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">INICIO</a>

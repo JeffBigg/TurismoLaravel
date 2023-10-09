@@ -10,8 +10,7 @@
                         <h2>Huanuco el mejor clima del mundo.</h2>
                         <p>No pierdas la oportunidad de conocer los diferentes climas que esta ciudad te ofrese ven y
                             visitanos.</p>
-                    </div>
-
+                    </div>w
                 </div>
             </div>
         </div>
@@ -23,38 +22,40 @@
                     <h2 class="text-center">¿Por qué elegirnos?</h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 text-center seccion">
-                        <h3>Destinos Exclusivos</h3>
-                        <p class=" w-100">Nos enorgullece ofrecerte destinos únicos y emocionantes en todo el mundo.
-                            Desde playas tropicales hasta ciudades históricas, tenemos algo para cada tipo de viajero.
-                        </p>
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{ asset('img/laguna.jpg') }}" alt="Destinos Exclusivos" class="img-responsive"
-                                width="400" height="200">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="{{ asset('img/laguna.jpg') }}" alt="Destinos Exclusivos" class="card-img-top">
+                            <div class="card-body">
+                                <h3>Destinos Exclusivos</h3>
+                                <p>Nos enorgullece ofrecerte destinos únicos y emocionantes en todo el mundo.
+                                    Desde playas tropicales hasta ciudades históricas, tenemos algo para cada tipo de
+                                    viajero.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center seccion">
-
-                        <h3>Experiencias a Medida</h3>
-
-                        <p class=" w-100">Sabemos que cada viajero es diferente, por lo que personalizamos cada viaje
-                            según tus preferencias y necesidades. Tu satisfacción es nuestra máxima prioridad.</p>
-
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{ asset('img/experiencia.avif') }}" alt="experiencia" class="img-responsive"
-                                width="400" height="200">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="{{ asset('img/experiencia.avif') }}" alt="experiencia" class="card-img-top">
+                            <div class="card-body">
+                                <h3>Experiencia a medida</h3>
+                                <p>Sabemos que cada viajero es diferente, por lo que personalizamos cada viaje
+                                    según tus preferencias y necesidades. Tu satisfacción es nuestra máxima prioridad.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center seccion">
-                        <h3>Equipo de Expertos</h3>
-
-                        <p class=" w-100">Nuestro equipo de expertos en turismo está listo para brindarte asesoramiento
-                            y recomendaciones para que tu viaje sea perfecto. ¡Déjanos encargarnos de los detalles para
-                            que tú puedas relajarte y disfrutar!</p>
-
-                        <div class="d-flex align-items-center justify-content-center">
-                            <img src="{{ asset('img/expertos.jpg') }}" alt="expertos" class="img-responsive"
-                                width="400" height="200">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="{{ asset('img/expertos.jpg') }}" alt="experiencia" class="card-img-top">
+                            <div class="card-body">
+                                <h3>Equipo de Expertos</h3>
+                                <p>Nuestro equipo de expertos en turismo está listo para brindarte asesoramiento
+                                    y recomendaciones para que tu viaje sea perfecto. ¡Déjanos encargarnos de los
+                                    detalles para
+                                    que tú puedas relajarte y disfrutar!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +63,7 @@
         </section>
 
         <section class="sec-informe">
-            <div class="container-fluid">
+            <div class="container">
                 <h2 class="text-center">Nuestros Servicios</h2>
                 <div class="row">
                     <div class="col-md-3">

@@ -1,33 +1,34 @@
 <x-layouts.app title="home" meta-description="home meta description">
     <br><br><br>
     <div class="container">
-        <h1 class="text-center">Lugares de Turismo</h1>
         <div class="row">
-            <div class="col-md-4">
-                <img src="imagen1.jpg" alt="Lugar 1">
-                <h2>Lugar 1</h2>
-                <p>Precio: $1000</p>
-                <p>Días: 5</p>
-                <p>Incluye: Alojamiento, comidas</p>
-                <a href="enlace-de-reserva-para-lugar1" class="btn btn-primary">Comprar paquete</a>
+            <div class="col-md-3">
+                <article class="card-poster">
+                    <img src="{{ asset('img/5lagunas.jpg') }}" alt="" class="card-poster__imagen">
+                    <strong class="card-poster__precio">
+                        $/1299
+                        <span class="card-poster__precio-anterior">
+                            Antes $/1499
+                        </span>
+                    </strong>
+                    <header class="card-poster__header">
+                        <strong class="card-poster__subtitulo">
+                            04 Dias/ 03 Noches
+                        </strong>
+                        <h2 class="card-poster__titulo">
+                            tour a cuzco
+                        </h2>
+                        <a href="" class="card-poster__mas-informacion">Mas informacion</a>
+                    </header>
+                </article>
+            </div>
+            <div class="col-md-3">
 
             </div>
-            <div class="col-md-4">
-                <img src="imagen2.jpg" alt="Lugar 2">
-                <h2>Lugar 2</h2>
-                <p>Precio: $800</p>
-                <p>Días: 3</p>
-                <p>Incluye: Excursiones, transporte</p>
-                <a href="enlace-de-reserva-para-lugar1" class="btn btn-primary">Comprar paquete</a>
+            <div class="col-md-3">
 
             </div>
-            <div class="col-md-4">
-                <img src="imagen3.jpg" alt="Lugar 3">
-                <h2>Lugar 3</h2>
-                <p>Precio: $1200</p>
-                <p>Días: 7</p>
-                <p>Incluye: Guía turístico, actividades</p>
-                <a href="enlace-de-reserva-para-lugar1" class="btn btn-primary">Comprar paquete</a>
+            <div class="col-md-3">
 
             </div>
         </div>

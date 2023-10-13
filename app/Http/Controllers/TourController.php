@@ -10,4 +10,8 @@ class TourController extends Controller
     {
         return view('turismo.index');
     }
+    public function showlaguna()
+    {
+        return view('turismo.showlaguna');
+    }
 }

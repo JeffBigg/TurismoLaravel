@@ -14,7 +14,7 @@
                             de queñua.
 
                         </p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.showlaguna') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>

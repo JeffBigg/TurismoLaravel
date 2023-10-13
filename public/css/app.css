@@ -252,3 +252,169 @@ p {
     -ms-flex-align: center;
     align-items: center;
 }
+
+.limit {
+    width: 1150px;
+    padding: 0;
+    margin: auto;
+    position: relative;
+}
+
+.page__header__inset .info-oferta-laguna {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 50%;
+    left: 60%;
+    position: absolute;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+
+}
+
+.page__header__inset .info-oferta-laguna .precio {
+    width: 30%;
+}
+
+.page__header__inset .info-oferta-laguna .precio .page__header__precio {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    padding: 11px 15px 13px;
+    border-radius: 12px;
+    font-size: 1.9rem;
+    background-color: #f2b30c;
+    border-bottom-right-radius: 12px;
+    color: #2b2b6f;
+    font-family: 'ClanOffc-Bold';
+    z-index: 3;
+    min-width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page__header__inset .info-oferta-laguna .precio .page__header__precio .page__header__precio-aterior {
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.page__header__inset .info-oferta-laguna .info {
+    width: 60%;
+    position: relative;
+}
+
+strong {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.page__header__inset .info-oferta-laguna .info h1 {
+    text-align: left;
+    width: auto;
+    padding: 0;
+    margin: 0 0 8px;
+    font-family: 'BreePeru-Bold';
+    font-size: 30px;
+    line-height: 110%;
+
+}
+
+.page_header_titulo {
+    font-family: 'BreePeru-Bold';
+    padding: 0 0 15px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 45px;
+    text-shadow: 0px 3.58303px 6.2703px rgb(0 0 0/70%);
+}
+
+.flex-btns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 17%;
+    position: relative;
+    left: 16%;
+}
+
+
+
+.boton {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: 'ClanOffc-Medium';
+    text-align: center;
+    padding: 0 55px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: background-color ease .25s;
+    transition: background-color ease .25s;
+    border: 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.flex-btns .boton.m--enlace {
+    -webkit-transform: none !important;
+    transform: none !important;
+    left: 0 !important;
+    background-color: #84C131;
+    border-color: #84C131;
+}
+
+.boton.m--grande {
+    min-height: 50px;
+    border-radius: 8px;
+    font-size: 1.125rem;
+}
+
+.boton strong {
+    position: relative;
+    z-index: 2;
+    -webkit-animation: menuItemOut ease .35s forwards;
+    animation: menuItemOut ease .35s forwards;
+    color: #fff;
+    min-width: 135px;
+}
+
+.boton:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    background-color: inherit;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+}

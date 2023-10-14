@@ -80,7 +80,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card">
-                            <h4>Excursiones y actividades   </h4>
+                            <h4>Excursiones y actividades </h4>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -92,10 +92,5 @@
             </div>
         </section>
     </main>
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2023 ExpresTour. Todos los derechos reservados.</p>
-        </div>
-    </footer>
 
 </x-layouts.app>

@@ -1,4 +1,4 @@
-<x-layouts.app title="Bella-Durmiente" meta-description="home meta description">
+<x-layouts.app title="Cordillera" meta-description="home meta description">
     <section class="header-laguna" style="background-image: url('{{ asset('img/cordillera.jpg') }}')">
         <div class="limit page__header__inset">
             <div class="info-oferta-laguna">

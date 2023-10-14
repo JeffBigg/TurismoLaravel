@@ -27,7 +27,7 @@
                         <h3>Bella Durmiente</h3>
                         <p> Tingo María es conocida como la "Ciudad de la Bella Durmiente" porque desde allí se puede
                             ver una formación de montañas cuya silueta se asemeja a la de una mujer dormida.</p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.belladurmiente') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         <h3>Cueva de las Lechuzas</h3>
                         <p> La Cueva de las Lechuzas es una cueva ubicada en el Parque Nacional Tingo María. La cueva
                             alberga una gran colonia de guácharos, que son aves que se alimentan de insectos.</p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.cuevalechuza') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>

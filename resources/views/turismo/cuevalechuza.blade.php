@@ -1,21 +1,21 @@
-<x-layouts.app title="Cinco lagunas" meta-description="home meta description">
-    <section class="header-laguna" style="background-image: url('{{ asset('img/5lagunas.jpg') }}')">
+<x-layouts.app title="Bella-Durmiente" meta-description="home meta description">
+    <section class="header-laguna" style="background-image: url('{{ asset('img/lechuza.jpg') }}')">
         <div class="limit page__header__inset">
             <div class="info-oferta-laguna">
                 <div class="precio">
                     <strong class="page__header__precio">
-                        S/.390
+                        S/.190
                         <span class="page__header__precio-aterior">
-                            antes S/.450
+                            antes S/.250
                         </span>
                     </strong>
                 </div>
                 <div class="info">
                     <strong class="page_header_subtitulo">
-                        03 dias/ 02 noches
+                        02 dias/ 01 noches
                     </strong>
                     <h1 class="page_header_titulo">
-                        Cinco Lagunas para ti.
+                        Cueva de Tingo Maria.
                     </h1>
                     <div class="flex-btns">
                         <div class="boton m--enlace m--grande m--comprar" data-href="https://wa.me/51981183416"
@@ -47,7 +47,7 @@
                                         </div>
                                     </div>
                                     <div class="item-text">
-                                        02 noches de alojamiento en Hotel Valencia II.
+                                        01 noches de alojamiento en Hotel SJ.
                                     </div>
                                 </div>
                                 <div class="item" id="alimentacion">
@@ -58,7 +58,7 @@
                                         </div>
                                     </div>
                                     <div class="item-text">
-                                        Desayuno, almuerzo y cena en hotel.
+                                        Desayuno, almuerzo y cena en el hotel.
                                     </div>
                                 </div>
                                 <div class="item" id="transporte">
@@ -69,18 +69,18 @@
                                         </div>
                                     </div>
                                     <div class="item-text">
-                                        Bus-Hotel-Bus
+                                        Bus-Hotel-Bus, regreso.
                                     </div>
                                 </div>
                                 <div class="item" id="tours">
                                     <div class="item-icono">
                                         <img src="{{ asset('img/realidad.png') }}" alt="">
                                         <div class="item-titulo">
-                                            Tour
+                                            tour
                                         </div>
                                     </div>
                                     <div class="item-text">
-                                        Caminata, botes y otros
+                                        Toda la ruta de la cueva full day.
                                     </div>
                                 </div>
 
@@ -91,33 +91,23 @@
                         <div class="seccion-actividades-text">
                             <h3>Actividades</h3>
                             <div class="content-incluye">
-                                Día 01: <br><br> Laguna Willcacocha
-                                Partiremos desde la ciudad de Huaraz, por 50 minutos rumbo hasta la Laguna de
-                                Willcacocha 3470 msnm; punto estratégico que nos permite apreciar casi toda la
-                                cordillera blanca y los nevados: Huandoy, Huascarán, Chopicalqui, Hualcán, Copa,
-                                Vallunaraju, Ocshapalca, Ranrapalca y Palcaraju.
-                                Al retorno pasaremos por el centro poblado de Santa Cruz, donde nos esperará nuestra
-                                movilidad para dirigirnos a Huaraz.
+                                8:00 a. m.: Recogida en el hotel o terminal de autobuses de Tingo María.
+                                8:30 a. m.: Salida hacia la Cueva de las Lechuzas.
+                                9:30 a. m.: Llegada a la Cueva de las Lechuzas.
+                                10:00 a. m.: Visita guiada a la cueva.
+                                12:00 p. m.: Almuerzo en un restaurante local.
+                                1:00 p. m.: Visita a la Laguna Milagrosa.
+                                3:00 p. m.: Regreso a Tingo María.
+                                4:00 p. m.: Llegada a Tingo María. <br><br>
 
-                                <br><br>Día 02: <br><br> Laguna Churup
-                                En nuestro transporte privado nos dirigimos a Pitec, puesto de control en el Parque
-                                Nacional Huascarán.
-                                Luego, un camino en zigzag de moderada dificultad te lleva hasta la laguna, pasando
-                                cerca y requiriéndote escalar una pequeña pared de roca.
-                                Luego de una breve parada, llegaremos a la laguna de Churup.
-                                Después descendemos por el mismo camino durante 2 horas hasta Pitec, para nuestro
-                                transporte de regreso a Huaraz.
+                                El tour incluye una visita guiada a la Cueva de las Lechuzas, que es el punto culminante
+                                del recorrido. La cueva es el hogar de una gran colonia de lechuzas, que se pueden ver
+                                volando por la cueva. También hay una variedad de otras aves, murciélagos, reptiles e
+                                insectos que viven en la cueva. <br> <br>
 
-                                Día 03: Laguna 69
-                                Salimos de Huaraz.
-                                Siguiendo con el recorrido, haremos una parada en la ruta para el desayuno. El recorrido
-                                dura todo un día, siguiendo la ruta hacia el sector Llanganuco, este alberga 2 lagunas:
-                                Orconcocha y Chinancocha.
-                                Inicio del trekking desde Cebollapampa (3850 m.s.n.m) hacia la laguna 69, subiendo un
-                                sendero zigzag (3 horas de caminata aproximadamente).
-                                Llegada a la laguna 69 (4 604 m.s.n.m) La laguna está rodeada por los nevados de
-                                Chacraraju y Pisco.
-                                Luego, retorno a la ciudad de Huaraz.
+                                Después de la visita a la cueva, los visitantes pueden visitar la Laguna Milagrosa. La
+                                laguna es un lugar tranquilo y hermoso que ofrece un contraste refrescante con el
+                                bullicio de la ciudad.
                             </div>
                         </div>
                     </div>

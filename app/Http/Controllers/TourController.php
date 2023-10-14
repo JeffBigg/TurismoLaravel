@@ -14,4 +14,12 @@ class TourController extends Controller
     {
         return view('turismo.showlaguna');
     }
+    public function belladurmiente()
+    {
+        return view('turismo.belladurmiente');
+    }
+    public function cuevalechuza()
+    {
+        return view('turismo.cuevalechuza');
+    }
 }

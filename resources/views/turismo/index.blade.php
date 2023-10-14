@@ -85,7 +85,7 @@
                         <p> La Cordillera de Huayhuash es una cadena montañosa ubicada en el departamento de Huánuco. La
                             cordillera alberga varios picos nevados, incluyendo el Huascarán, la montaña más alta del
                             Perú y las mas frias y hermosas.</p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.cordillera') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>

@@ -30,4 +30,8 @@ class TourController extends Controller
     {
         return view('turismo.kotosh');
     }
+    public function cordillera()
+    {
+        return view('turismo.cordillera');
+    }
 }

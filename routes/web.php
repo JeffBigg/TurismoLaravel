@@ -11,3 +11,4 @@ Route::get('/turismo/belladurmiente', [TourController::class, 'belladurmiente'])
 Route::get('/turismo/cuevalechuza', [TourController::class, 'cuevalechuza'])->name('turismo.cuevalechuza');
 Route::get('/turismo/huanucopampa', [TourController::class, 'huanucopampa'])->name('turismo.huanucopampa');
 Route::get('/turismo/kotosh', [TourController::class, 'kotosh'])->name('turismo.kotosh');
+Route::get('/turismo/cordillera', [TourController::class, 'cordillera'])->name('turismo.cordillera');

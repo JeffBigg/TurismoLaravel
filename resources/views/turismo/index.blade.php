@@ -1,4 +1,4 @@
-<x-layouts.app title="home" meta-description="home meta description">
+<x-layouts.app title="Ofertas" meta-description="home meta description">
     <br><br><br>
     <div class="container paquete">
         <div class="row">

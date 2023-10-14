@@ -1,4 +1,4 @@
-<x-layouts.app title="home" meta-description="home meta description">
+<x-layouts.app title="Cinco lagunas" meta-description="home meta description">
     <section class="header-laguna" style="background-image: url('{{ asset('img/5lagunas.jpg') }}')">
         <div class="limit page__header__inset">
             <div class="info-oferta-laguna">
@@ -30,7 +30,7 @@
         </div>
     </section>
     <main class="seccion">
-        <section class="m--actividades">
+        <section class="container m--actividades">
             <div class="limit">
                 <div class="seccion-actividades">
                     <div class="blItem">
@@ -91,8 +91,7 @@
                         <div class="seccion-actividades-text">
                             <h3>Actividades</h3>
                             <div class="content-incluye">
-
-                                Día 01: Laguna Willcacocha
+                                Día 01: <br><br> Laguna Willcacocha
                                 Partiremos desde la ciudad de Huaraz, por 50 minutos rumbo hasta la Laguna de
                                 Willcacocha 3470 msnm; punto estratégico que nos permite apreciar casi toda la
                                 cordillera blanca y los nevados: Huandoy, Huascarán, Chopicalqui, Hualcán, Copa,
@@ -100,7 +99,7 @@
                                 Al retorno pasaremos por el centro poblado de Santa Cruz, donde nos esperará nuestra
                                 movilidad para dirigirnos a Huaraz.
 
-                                Día 02: Laguna Churup
+                                <br><br>Día 02: <br><br> Laguna Churup
                                 En nuestro transporte privado nos dirigimos a Pitec, puesto de control en el Parque
                                 Nacional Huascarán.
                                 Luego, un camino en zigzag de moderada dificultad te lleva hasta la laguna, pasando
@@ -119,9 +118,7 @@
                                 Llegada a la laguna 69 (4 604 m.s.n.m) La laguna está rodeada por los nevados de
                                 Chacraraju y Pisco.
                                 Luego, retorno a la ciudad de Huaraz.
-
                             </div>
-
                         </div>
                     </div>
                 </div>

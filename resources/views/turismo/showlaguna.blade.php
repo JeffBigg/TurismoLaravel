@@ -40,16 +40,22 @@
                             </h3>
                             <div class="seccion-incluye">
                                 <div class="item" id="alojamiento">
-                                    <div class="item-titulo">
-                                        alojamiento
+                                    <div class="item-icono">
+                                        <img src="{{ asset('img/hogar.png') }}" alt="">
+                                        <div class="item-titulo">
+                                            alojamiento
+                                        </div>
                                     </div>
                                     <div class="item-text">
                                         02 noches de alojamiento en Hotel Valencia II.
                                     </div>
                                 </div>
                                 <div class="item" id="alimentacion">
-                                    <div class="item-titulo">
-                                        alimentacion
+                                    <div class="item-icono">
+                                        <img src="" alt="">
+                                        <div class="item-titulo">
+                                            alimentacion
+                                        </div>
                                     </div>
                                     <div class="item-text">
                                         desayuno incluido en Hotel Valencia II.

@@ -418,3 +418,141 @@ strong {
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
 }
+
+/* esta parte es la parte mas abjo de lo de arriba*/
+.seccion .limit {
+    background: #FFF;
+    padding: 40px 80px;
+}
+
+.m--actividades .seccion-actividades {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    padding: 15px 0 20px;
+    justify-content: center;
+}
+
+.seccion-actividades .blItem:last-child {
+    border: 1px solid #E6E6E6;
+}
+
+.seccion-actividades .blItem {
+    width: 48%;
+    padding: 40px;
+    border-radius: 11px;
+}
+
+.seccion.m--incluye {
+    background: white;
+}
+
+.seccion {
+    background: #f9f9f9;
+}
+
+.m--actividades .seccion-actividades h3 {
+    color: #0070BA;
+    text-align: left;
+    font-family: 'ClanOffc-Bold';
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.m--incluye .seccion-incluye {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.m--incluye .seccion-incluye {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.m--incluye .seccion-incluye .item {
+    position: relative;
+    flex: auto;
+    width: 40%;
+    padding: 0 15px 36px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    margin-bottom: 45px;
+}
+
+.m--incluye .seccion-incluye .item {
+    width: 100%;
+    padding: 0 15px 25px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.m--incluye .seccion-incluye .item .item-texto {
+    text-align: left;
+    margin: 0 auto 0 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636363;
+    font-family: 'ClanOffc-Book';
+    max-width: 250px;
+}
+
+.m--incluye .seccion-incluye .item#alojamiento .item-titulo {
+    color: #0070BA;
+}
+
+.m--incluye .seccion-incluye .item .item-icono .item-titulo {
+    height: auto;
+    margin-top: 15px;
+}
+
+.m--incluye .seccion-incluye .item .item-titulo {
+    height: 45px;
+    font-family: 'ClanOffc-Bold';
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.m--incluye .seccion-incluye .item .item-titulo {
+    height: 45px;
+    font-family: 'ClanOffc-Bold';
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.m--incluye .seccion-incluye .item .item-icono {
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.m--incluye .seccion-incluye .item .item-icono {
+    width: 120px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.m--incluye .seccion-incluye .item .item-icono img {
+    max-height: 27px;
+    margin-right: 5px;
+}
+
+.m--incluye .seccion-incluye .item .item-icono img {
+    display: block;
+    margin: 0 auto;
+}

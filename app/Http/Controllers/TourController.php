@@ -22,4 +22,8 @@ class TourController extends Controller
     {
         return view('turismo.cuevalechuza');
     }
+    public function huanucopampa()
+    {
+        return view('turismo.huanucopampa');
+    }
 }

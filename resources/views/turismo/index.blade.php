@@ -58,7 +58,7 @@
                         <p> Huánuco-Pampa fue una importante ciudad inca que se encuentra a unos 10 kilómetros de la
                             ciudad de Huánuco. El sitio arqueológico alberga una gran variedad de edificios, plazas y
                             templos.</p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.huanucopampa') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>

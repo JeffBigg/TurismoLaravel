@@ -10,9 +10,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('turismo.index') }}">PAQUETES</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LOGIN</a>
-                </li>
                 <li class="nav-item disabled">
                     <a class="nav-link">DISABLED</a>
                 </li>

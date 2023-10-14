@@ -71,7 +71,7 @@
                         <h3>Templo de las Manos Cruzadas</h3>
                         <p>Es un sitio arqueológico ubicado en el distrito de San José de Quero, en la provincia de
                             Huánuco. El sitio es conocido por sus esculturas de manos humanas cruzadas.</p>
-                        <a href="#">Ver paquete ...</a>
+                        <a href="{{ route('turismo.kotosh') }}">Ver paquete ...</a>
                     </div>
                 </div>
             </div>

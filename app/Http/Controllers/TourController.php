@@ -26,4 +26,8 @@ class TourController extends Controller
     {
         return view('turismo.huanucopampa');
     }
+    public function kotosh()
+    {
+        return view('turismo.kotosh');
+    }
 }

@@ -52,26 +52,32 @@
                                 </div>
                                 <div class="item" id="alimentacion">
                                     <div class="item-icono">
-                                        <img src="" alt="">
+                                        <img src="{{ asset('img/alimentacion.png') }}" alt="">
                                         <div class="item-titulo">
-                                            alimentacion
+                                            Alimentacion
                                         </div>
                                     </div>
                                     <div class="item-text">
-                                        desayuno incluido en Hotel Valencia II.
+                                        Desayuno incluido en Hotel Valencia II.
                                     </div>
                                 </div>
                                 <div class="item" id="transporte">
-                                    <div class="item-titulo">
-                                        transporte
+                                    <div class="item-icono">
+                                        <img src="{{ asset('img/transporte.png') }}" alt="">
+                                        <div class="item-titulo">
+                                            Transporte
+                                        </div>
                                     </div>
                                     <div class="item-text">
                                         bus-hotel-bus
                                     </div>
                                 </div>
                                 <div class="item" id="tours">
-                                    <div class="item-titulo">
-                                        tour
+                                    <div class="item-icono">
+                                        <img src="{{ asset('img/realidad.png') }}" alt="">
+                                        <div class="item-titulo">
+                                            tour
+                                        </div>
                                     </div>
                                     <div class="item-text">
                                         caminata botes y otros
@@ -80,6 +86,43 @@
 
                             </div>
                         </section>
+                    </div>
+                    <div class="blItem">
+                        <div class="seccion-actividades-text">
+                            <h3>Actividades</h3>
+                            <div class="content-incluye">
+
+                                Día 01: Laguna Willcacocha
+                                Partiremos desde la ciudad de Huaraz, por 50 minutos rumbo hasta la Laguna de
+                                Willcacocha 3470 msnm; punto estratégico que nos permite apreciar casi toda la
+                                cordillera blanca y los nevados: Huandoy, Huascarán, Chopicalqui, Hualcán, Copa,
+                                Vallunaraju, Ocshapalca, Ranrapalca y Palcaraju.
+                                Al retorno pasaremos por el centro poblado de Santa Cruz, donde nos esperará nuestra
+                                movilidad para dirigirnos a Huaraz.
+
+                                Día 02: Laguna Churup
+                                En nuestro transporte privado nos dirigimos a Pitec, puesto de control en el Parque
+                                Nacional Huascarán.
+                                Luego, un camino en zigzag de moderada dificultad te lleva hasta la laguna, pasando
+                                cerca y requiriéndote escalar una pequeña pared de roca.
+                                Luego de una breve parada, llegaremos a la laguna de Churup.
+                                Después descendemos por el mismo camino durante 2 horas hasta Pitec, para nuestro
+                                transporte de regreso a Huaraz.
+
+                                Día 03: Laguna 69
+                                Salimos de Huaraz.
+                                Siguiendo con el recorrido, haremos una parada en la ruta para el desayuno. El recorrido
+                                dura todo un día, siguiendo la ruta hacia el sector Llanganuco, este alberga 2 lagunas:
+                                Orconcocha y Chinancocha.
+                                Inicio del trekking desde Cebollapampa (3850 m.s.n.m) hacia la laguna 69, subiendo un
+                                sendero zigzag (3 horas de caminata aproximadamente).
+                                Llegada a la laguna 69 (4 604 m.s.n.m) La laguna está rodeada por los nevados de
+                                Chacraraju y Pisco.
+                                Luego, retorno a la ciudad de Huaraz.
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>

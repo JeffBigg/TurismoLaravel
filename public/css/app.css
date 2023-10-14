@@ -458,6 +458,7 @@ strong {
     font-size: 26px;
     line-height: 33px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .m--incluye .seccion-incluye {
@@ -509,25 +510,31 @@ strong {
     color: #0070BA;
 }
 
+.m--incluye .seccion-incluye .item#alimentacion .item-titulo {
+    color: #0070BA;
+}
+
+.m--incluye .seccion-incluye .item#transporte .item-titulo {
+    color: #0070BA;
+}
+
+.m--incluye .seccion-incluye .item#tours .item-titulo {
+    color: #0070BA;
+}
+
 .m--incluye .seccion-incluye .item .item-icono .item-titulo {
     height: auto;
     margin-top: 15px;
+    margin-left: 15px;
 }
 
 .m--incluye .seccion-incluye .item .item-titulo {
     height: 45px;
     font-family: 'ClanOffc-Bold';
-    font-size: 18px;
+    font-size: 20px;
     line-height: 23px;
     text-align: center;
-}
-
-.m--incluye .seccion-incluye .item .item-titulo {
-    height: 45px;
-    font-family: 'ClanOffc-Bold';
-    font-size: 18px;
-    line-height: 23px;
-    text-align: center;
+    font-weight: bold;
 }
 
 .m--incluye .seccion-incluye .item .item-icono {
@@ -538,10 +545,8 @@ strong {
 }
 
 .m--incluye .seccion-incluye .item .item-icono {
-    width: 120px;
     height: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
     align-content: center;
     justify-content: center;
@@ -555,4 +560,24 @@ strong {
 .m--incluye .seccion-incluye .item .item-icono img {
     display: block;
     margin: 0 auto;
+}
+
+/* de aqui es la parte texto
+*/
+
+.m--actividades .seccion-actividades h3 {
+    color: #0070BA;
+    text-align: left;
+    font-family: 'ClanOffc-Bold';
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.m--actividades .seccion-actividades-text h3 {
+    font-family: 'ClanOffc-Bold';
+    font-size: 26px;
+    line-height: 33px;
+    color: #0070BA;
+    margin: 0 0 15px;
 }
